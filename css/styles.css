@@ -3,7 +3,8 @@ header {
         /* Définit l'image d'arrière-plan pour l'élément <header>. */
     background-image: url('../Image/Screenshot_1.png');
     background-size: cover;  /* Ajuste l'image d'arrière-plan pour qu'elle couvre toute la zone de l'élément <header>. */
-    height: 1500px;  /* Hauteur fixe de l'élément <header>. */
+    background-position: center; /* Positionne l'image au centre */
+    height: 1300px;  /* Hauteur fixe de l'élément <header>. */
     color: white;  /* Couleur du texte à l'intérieur de l'élément <header>. */
     position: relative;  /* Positionnement relatif pour permettre le positionnement absolu des enfants. */
 }
@@ -34,9 +35,9 @@ header {
 /* Classe pour la section du résumé */
 .resume {
     position: absolute;  /* Positionnement absolu comme .profile */
-    top: 333px;  /* Distance depuis le haut de l'élément parent. */
+    top: 400px;  /* Distance depuis le haut de l'élément parent. */
     left: 10px;  /* Distance depuis la gauche de l'élément parent. */
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(78, 3, 128, 0.945);
     padding: 15px;
     border-radius: 10px;
     font-size: 25px;  /* Taille de la police pour l'élément <div> avec la classe .profile. */
