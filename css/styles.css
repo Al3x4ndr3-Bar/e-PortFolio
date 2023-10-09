@@ -1,27 +1,32 @@
 /* Style pour l'en-tête */
 header {
+        /* Définit l'image d'arrière-plan pour l'élément <header>. */
     background-image: url('https://img.freepik.com/vecteurs-libre/ordinateur-portable-icone-isometrique-code-programme-developpement-logiciels-applications-programmation-neon-sombre_39422-971.jpg?w=1060&t=st=1696855869~exp=1696856469~hmac=07352ad0078183504a5e7c68e22326cc61d45b55000c61ce916b6a7970da1f23');
-    background-size: cover;
-    height: 1200px;
-    color: white;
-    position: relative;
+    background-size: cover;  /* Ajuste l'image d'arrière-plan pour qu'elle couvre toute la zone de l'élément <header>. */
+    height: 1200px;  /* Hauteur fixe de l'élément <header>. */
+    color: white;  /* Couleur du texte à l'intérieur de l'élément <header>. */
+    position: relative;  /* Positionnement relatif pour permettre le positionnement absolu des enfants. */
 }
 
 /* Positionnement de la photo de profil et du texte */
 .profile {
-    position: absolute;
-    top: 20px;
-    left: 20px;
+    position: absolute;  /* Positionnement absolu par rapport à l'élément parent positionné (ici, <header>). */
+    top: 20px;  /* Distance depuis le haut de l'élément parent. */
+    left: 20px;  /* Distance depuis la gauche de l'élément parent. */
+    font-size: 32px;  /* Taille de la police pour l'élément <div> avec la classe .profile. */
+    margin: 10px 0 0 0;  /* Marges autour de l'élément. Ici, la marge du haut est de 10px. */
 }
 
+/* Style pour l'image de profil */
 .profile img {
-    width: 200px;
-    height: auto;
-    border-radius: 50%;  /* Rend l'image ronde */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  /* Ajoute une ombre douce */
-    transition: box-shadow 0.3s ease;  /* Effet de transition pour l'ombre */
+    width: 200px;  /* Largeur de l'image de profil. */
+    height: auto;  /* Hauteur automatique pour maintenir l'aspect ratio. */
+    border-radius: 50%;  /* Rend l'image ronde. */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  /* Ajoute une ombre douce autour de l'image. */
+    transition: box-shadow 0.3s ease;  /* Transition douce pour l'effet d'ombre. */
 }
 
+/* Style pour le texte du profil */
 .profile h1, .profile p {
-    margin: 0;
+    margin: 0;  /* Pas de marge pour les éléments <h1> et <p> à l'intérieur de .profile. */
 }
