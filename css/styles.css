@@ -1,0 +1,27 @@
+/* Style pour l'en-tête */
+header {
+    background-image: url('https://img.freepik.com/vecteurs-libre/ordinateur-portable-icone-isometrique-code-programme-developpement-logiciels-applications-programmation-neon-sombre_39422-971.jpg?w=1060&t=st=1696855869~exp=1696856469~hmac=07352ad0078183504a5e7c68e22326cc61d45b55000c61ce916b6a7970da1f23');
+    background-size: cover;
+    height: 1200px;
+    color: white;
+    position: relative;
+}
+
+/* Positionnement de la photo de profil et du texte */
+.profile {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.profile img {
+    width: 200px;
+    height: auto;
+    border-radius: 50%;  /* Rend l'image ronde */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  /* Ajoute une ombre douce */
+    transition: box-shadow 0.3s ease;  /* Effet de transition pour l'ombre */
+}
+
+.profile h1, .profile p {
+    margin: 0;
+}
